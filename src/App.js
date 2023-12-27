@@ -47,12 +47,14 @@ function App() {
   return (
     <div className="App">
       <h1>Available housing in Calgary</h1>
-      {communities.map((element, index) =>(
-        <CommunityInfo key = {index}
-          community = {element}
-          houses = {houses}
-        />
-      ))}
+      <div className='communities'>
+        {communities.map((element, index) =>(
+          <CommunityInfo key = {index}
+            community = {element}
+            houses = {houses}
+          />
+        ))}
+      </div>
     </div>
   );
 }

@@ -1,4 +1,36 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgb(232, 232, 242);
 }
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.community{
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 60px;
+  background-color: #ffffff;
+  box-shadow: 15px 15px 5px #b8b5b5;
+}
+h1{
+  margin-top: 50px;
+  font-size: 4vw;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  margin-top: 0;
+  font-size: 3vw;
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+}
+img{
+  width: 100%; 
+}
+
 

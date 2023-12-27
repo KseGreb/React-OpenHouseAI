@@ -18,11 +18,11 @@ function CommunityInfo({community, houses}){
     return(
         <div> 
             { averagePrice ? 
-                (<div>
+                (<div className="community" data-aos="zoom-in" data-aos-duration="1000">
                     <h3>{community.name}</h3>
-                    {community.imgUrl ? <img src={community?.imgUrl} alt="neighborhood picture" width="500px"/> : null}
+                    {community.imgUrl ? <img src={community?.imgUrl} alt="neighborhood picture" /> : null}
                     <div>
-                        <h3>Average price for a property in this neighborhood is ${averagePrice ? numberWithCommas(averagePrice.toFixed(0)) : "0"} </h3>
+                        <h2>Average price for a property in this neighborhood is ${averagePrice ? numberWithCommas(averagePrice.toFixed(0)) : "0"} </h2>
                     </div>
                 </div>) : null }
         </div>
