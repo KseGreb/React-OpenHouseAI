@@ -22,7 +22,7 @@ const SliderComponent = ({
       <Stack gap={1}>
         <Typography variant="subtitle2">{label}</Typography>
         <Typography variant="h5">
-          {unit} {amount}
+        {unit} {amount}
         </Typography>
       </Stack>
       <Slider
