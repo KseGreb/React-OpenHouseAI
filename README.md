@@ -5,21 +5,35 @@ https://github.com/KseGreb/React-OpenHouseAI/assets/110953599/700da0bd-841e-4951
 
 ## 🦉 Main information
 
-The goal was to create a simple web application using React, Vue, or another framework that retrieves data from the provided RESTful endpoints and displays it to the user.
-When creating this application, the following conditions were met:
-- Present a collection of geographic communities in alphabetical order.
-  Each geographic community is to be displayed with the minimum following information:
-    - Community name
-    - Image for the community
-    - The average price of all the homes associated with that community
 
-  ### My notes:
+The goal was to create a complete React project!
 
-  1 - If given more time I would write code to validate url when there is return 400 error (currently from Rosedale neighborhood).
-  
-  2 - If I'd have more time I would add try-catch for the second GET call.
-  
-  3 - I would also try and substitute image that is not provided in API (Oakridge neighborhood) with image of Calgary skyline instead for a better user experience.
+The project could have been anything: any website or an app, so I have desided to combine it together.
+
+I used React.js to create a full website for a realtor in Calgary, AB, Canada.
+
+
+## In this project you'd find:
+
+- Navbar and React Router
+- 4 working sections of the site with same design concept throughout all of the pages
+- UseState and UseEffect hooks
+- The use of multiple APIs
+- The weather app that shows current day and temperature in Calgary
+- Interactive map of Calgary
+- CountUp and ScrollTrigger functionallity used for dinamically changing numbers
+- Alert and Loader functionalities
+- Integrated slides in one of the pages
+- LocaleStorage used for making notes
+- LocaleStorage used for only one alert upon loading the site
+- Toggle button functionality
+- Methods map(), filter(), substring() were used.
+- Show More/ Show Less button
+- Integrated data.js files
+- Calculator functionallity with Slider component
+- Chart functionallity
+- Integrated Formspree for sending emails
+- Adaptation for mobile devices
 
 
 ## ⏲️ Run project
