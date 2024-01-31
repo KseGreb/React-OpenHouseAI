@@ -1,6 +1,6 @@
-# Coding Exercise for OpenHouse.AI
 
-![smartmockups_lqn8lyit](https://github.com/KseGreb/React-OpenHouseAI/assets/110953599/a30cb2d2-baa1-4f5d-a7b8-d26eea042424)
+
+https://github.com/KseGreb/React-OpenHouseAI/assets/110953599/700da0bd-841e-4951-b2e3-57e41fbf18be
 
 
 ## 🦉 Main information
