@@ -49,11 +49,11 @@ function Home(){
             <div className='weatherApp'>
                 <Weather/>
             </div>
-            <div className='map'>
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160599.8994895216!2d-114.25263944489124!3d51.02772334687565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20AB!5e0!3m2!1sen!2sca!4v1705343908063!5m2!1sen!2sca">
-                </iframe>
-            </div>
+            // <div className='map'>
+            //     <iframe 
+            //         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160599.8994895216!2d-114.25263944489124!3d51.02772334687565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20AB!5e0!3m2!1sen!2sca!4v1705343908063!5m2!1sen!2sca">
+            //     </iframe>
+            // </div>
         </div>
         
         <div className='extras'>
