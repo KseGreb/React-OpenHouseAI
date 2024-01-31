@@ -8,6 +8,12 @@ import '../css/alert.css'
 
 function AlertDismissible() {
     const [show, setShow] = useState(true);
+
+    const handleClick = () => {
+        setShow(false);
+        window.localStorage.setItem( "Acknowledge", JSON.stringify(true)) 
+    }
+    
   
     return (
       <>
@@ -27,7 +33,7 @@ function AlertDismissible() {
           <hr />
           <div className="d-flex justify-content-end">
             <Button 
-                onClick={() => setShow(false)} 
+                onClick={() => handleClick()} 
                 variant="outline-success"
                 className='btn'>
               I acknowledge

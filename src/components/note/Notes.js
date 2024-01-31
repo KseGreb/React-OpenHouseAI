@@ -8,7 +8,8 @@ import { Note } from './Note';
 function Notes() {
 
     const [inputText, setInputText] = useState("");
-    const [notes, setNotes] = useState([]);
+    const [notes, setNotes] = useState(
+        localStorage.NewNotes ? JSON.parse(localStorage.NewNotes) : []);
     const [editToggle, setEditToggle] = useState(null);
 
     const editHandler = (id, text) => {
@@ -40,13 +41,7 @@ function Notes() {
     }
 
     useEffect(()=>{
-        const data = JSON.parse(localStorage.getItem("Notes"))
-        if(data){
-            setNotes(data)
-        }
-    }, [])
-    useEffect(()=>{
-        window.localStorage.setItem( "Notes", JSON.stringify(notes))
+        window.localStorage.setItem( "NewNotes", JSON.stringify(notes))
     }, [notes])
 
   return (
@@ -59,6 +54,7 @@ function Notes() {
                         inputText={inputText}
                         setInputText={setInputText}
                         saveHandler={saveHandler}
+                        key={note.id}
                     />
                 :
                     <Note

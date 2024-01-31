@@ -13,12 +13,15 @@ import TheMainNote from '../components/note/TheMainNote';
 import { FaPhoneVolume } from "react-icons/fa6";
 
 function Home(){
+    const checkAcknowledgment = localStorage.getItem("Acknowledge");
+
     return(<div className='mainHomePage'>
 
         <div data-aos="zoom-in"
             data-aos-easing="linear"
             data-aos-duration="1500">
-                <AlertDismissibleExample/>
+                {!checkAcknowledgment ? (<AlertDismissibleExample/>) : null}
+            
         </div>
 
         <img src={calgary} className='imageCalgary'/>
