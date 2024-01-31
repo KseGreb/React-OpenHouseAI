@@ -35,6 +35,8 @@ I used React.js to create a full website for a realtor in Calgary, AB, Canada.
 - Integrated Formspree for sending emails
 - Adaptation for mobile devices
 
+## Check out the live version <a href="https://realtor-calgary.netlify.app/"> here </a>
+
 
 ## ⏲️ Run project
 
