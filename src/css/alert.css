@@ -1,0 +1,128 @@
+.alert{
+    padding: 3rem;
+    max-width: 80%;
+    height: 800px;
+}
+.heading{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.par{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.banff{
+    width: 500px;
+}
+.btn{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .alert{
+        padding: 2rem;
+        max-width: 70%;
+        height: 1100px;
+    }
+    .par{
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .alert{
+        padding: 1rem;
+        max-width: 65%;
+        height: 800px;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .par{
+        font-size: 1.5rem;
+    }
+    .banff{
+        width: 300px;
+    }
+}
+
+/* @media screen and (max-width: 800px) {
+    .alert{
+        padding: 1rem;
+        max-width: 65%;
+        height: 750px;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .par{
+        font-size: 1.5rem;
+    }
+    .banff{
+        width: 400px;
+    }
+} */
+
+@media screen and (max-width: 550px) {
+    .alert{
+        padding: 1rem;
+        max-width: 65%;
+        height: 800px;
+    }
+    .heading{
+        font-size: 1.9rem;
+    }
+    .par{
+        font-size: 1.4rem;
+    }
+    .banff{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .alert{
+        padding: 1rem;
+        max-width: 220px;
+        height: 770px;
+    }
+    .heading{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .par{
+        font-size: 1.2rem;
+    }
+    .banff{
+        width: 150px;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+@media screen and (max-width: 300px) {
+    .alert{
+        max-width: 130px;
+        height: 750px;
+    }
+    .heading{
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    .par{
+        font-size: 1rem;
+    }
+    .banff{
+        display: none;
+    }
+    .btn{
+        font-size: 0.8rem;
+        padding: 0.3rem;
+    }
+}

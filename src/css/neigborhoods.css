@@ -1,0 +1,183 @@
+/* housing/api */
+body{
+    background-color: rgb(232, 232, 242);
+  }
+  .App {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .headingMarket{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+  }
+  .community{
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #ffffff;
+    box-shadow: 15px 15px 5px #b8b5b5;
+  }
+  .communityName{
+    font-size: 2.5vw;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .aboutPrice{
+    padding:30px;
+    margin-top: 1rem;
+  }
+  .avrPrice{
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .number{
+    color: red;
+  }
+  .number:hover{
+    color: red;
+  }
+  .button{
+    padding: 1rem;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 2px solid red;
+    background-color: #ffffff;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+
+  .button:hover{
+    background-color: red;
+    color: white;
+  }
+  .arrow{
+    color: black;
+  }
+  img{
+    width: 100%; 
+  }
+
+  .mainNeighborhoods{
+    margin-top: 5rem;
+    padding: 5rem;
+  }
+
+  .aboutMarket{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding: 0;
+    text-indent: 50px;
+    text-align: justify;
+    /* letter-spacing: 3px; */
+  }
+  .showMore{
+    margin: 0 auto;
+    width: 80%;
+  }
+  .btnShowMore{
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  @media screen and (max-width:1200px) {
+    .community{
+      padding: 50px;
+      margin: 50px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    .communityName{
+      font-size: 2.5rem;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+    }
+    .avrPrice{
+      font-size: 2rem;
+    }
+    .button{
+      font-size: 1.5rem;
+    }
+  } 
+  @media screen and (max-width: 800px) {
+    .community{
+      padding: 50px;
+      margin: 50px;
+      margin-left: 70px;
+      margin-right: 70px;
+    }
+    .communityName{
+      font-size: 2.5rem;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+    }
+    .avrPrice{
+      font-size: 2rem;
+    }
+    .button{
+      font-size: 1.3rem;
+    }
+    .headingMarket{
+      font-size: 2.5rem;
+    }
+  } 
+  @media screen and (max-width: 500px) {
+    .headingMarket{
+      font-size: 2rem;
+    }
+    .mainNeighborhoods{
+      padding-top: 3rem;
+    }
+    .showMore{
+      width: 70%;
+    }
+    .aboutMarket{
+      font-size: 1.4rem;
+    }
+    .communityName{
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .avrPrice{
+      font-size: 1.4rem;
+    }
+    .button{
+      font-size: 1rem;
+      padding: 10px;
+    }
+  } 
+  @media screen and (max-width: 300px) {
+    .community{
+      padding: 10px;
+      margin: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    .communityName{
+      font-size: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+    .avrPrice{
+      font-size: 1.5rem;
+    }
+    .button{
+      font-size: 1.1rem;
+    }
+    .headingMarket{
+      font-size: 1.8rem;
+    }
+  } 

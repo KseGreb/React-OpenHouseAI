@@ -1,0 +1,294 @@
+.alert{
+  display: block;
+  position: absolute;
+  left: 10rem; 
+  top: 10rem;
+  right: 10rem;
+  background-color: #c92205; 
+  transform: translateX(0px); 
+  width: 80%;
+  height: 100vh;
+  padding: 10rem;
+  color: white;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+.mainHomePage{
+    margin-top: 0rem;
+    width: 100vw;
+  }
+.aboutCalgary{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.heading{
+  font-size: 4rem;
+  padding: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.Calgary{
+  padding: 5rem;
+}
+.moreInfo{
+  font-size: 2.5rem;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  text-indent: 50px;
+  /* letter-spacing: 3px; */
+}
+  .picture{
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 5rem;
+  }
+.extras{
+  background-color: #c92205;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  padding: 5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.extraSection, .extraSectionNote{
+  background-color: white;
+  margin: 3rem;
+  width: 500px;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 15px;
+}
+.icon{
+  color:red;
+  font-size: 5rem;
+}
+.link{
+  color: black;
+}
+.link:hover{
+  color: red;
+}
+.icon:hover{
+  color: red;
+}
+  .MapAndWeather{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5rem;
+    margin: 3rem;
+  }
+  .map{
+    display: flex;
+    justify-content: center;
+  }
+  iframe{
+    width: 400px;
+    border-radius: 15px;
+    border: 1px solid black; 
+  }
+
+  .land{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3rem;
+    /* border: 1px solid black; */
+    /* border-radius: 15px; */
+    /* background-color: black; */
+    
+  }
+  .aboutLand{
+    padding: 50px;
+    width: 50rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    /* box-shadow:  10px 10px 10px; */
+    margin: 1rem;
+    /* background-color: white; */
+    background-color: #c92205;
+  }
+  .banff{
+    width: 35rem;
+    border-radius: 15px;
+    box-shadow:  10px 10px 10px;
+    margin: 1rem;
+  }
+
+
+
+  @media screen and (max-width: 1200px) {
+    .aboutCalgary{
+      font-size: 2.5rem;
+    }
+    .heading{
+      font-size: 3rem;
+      padding: 2rem;
+    }
+    .Calgary{
+      padding: 5rem;
+    }
+    .moreInfo{
+      font-size: 2rem; 
+    }
+    .picture{
+        width: 70%;
+        padding: 2rem;
+      }
+      .extras{
+        flex-direction: column;
+        align-items: center;
+      }
+      .extraSection{
+       height: 300px;
+      }
+      .MapAndWeather{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 2rem;
+        margin-top: 0rem;
+      }
+      .weatherApp{
+        margin-bottom: 2rem;
+      }
+      .map{
+        display: flex;
+        justify-content: center;
+      }
+
+    iframe{
+      height: 300px;
+      width:600px;
+      border: 1px solid black; 
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .heading{
+      font-size: 2rem;
+      padding: 0;
+    }
+    .moreInfo{
+      font-size: 1.5rem;
+      padding: 1rem;
+    }
+    .aboutCalgary{
+      font-size: 1.5rem;
+    }
+    .picture{
+        width: 60%;
+        padding: 1rem;
+      }
+      .extras{
+        margin-top: 2rem;
+        padding-bottom: 2rem; 
+        margin-bottom: 2rem; 
+        padding: 10rem;
+      }
+      .extraSection{
+        height: 200px;
+        width: 400px;
+      }
+      .extraSectionNote{
+        width: 400px;
+      }
+      .MapAndWeather{
+        padding: 2rem;
+        margin-top: 0rem;
+      }
+      .weatherApp{
+        margin-bottom: 2rem;
+      }
+      .map{
+        display: flex;
+        justify-content: center;
+      }
+      iframe{
+        height: 300px;
+        width: 500px;
+        border: 1px solid black; 
+      }
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .Calgary{
+      margin-right: 0rem;
+      margin-left: 0rem;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .heading{
+      font-size: 1.3rem;
+    }
+    .moreInfo{
+      font-size: 1.2rem;
+      padding: 0rem;
+    }
+    .aboutCalgary{
+      font-size: 1.3rem;
+      padding: 0.5rem;
+    }
+    .picture{
+        width: 60%;
+        padding: 0rem;
+      }
+      .extras{
+        padding: 1rem;
+        margin: 0rem;
+      }
+      .extraSection{
+        height: 200px;
+        width: 350px;
+        padding: 1rem;
+        margin: 1.3rem;
+      }
+      .extraSectionNote{
+        width: 350px;
+        padding: 1rem;
+        margin: 1.3rem;
+      }
+      .icon{
+        color: red;
+        font-size: 3rem;
+      }
+      .MapAndWeather{
+        padding: 2rem;
+        margin-top: 0rem;
+      }
+      iframe{
+        height: 200px;
+        width: 350px;
+        border: 1px solid black; 
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .Calgary{
+      padding: 1rem;
+    }
+    iframe{
+      height: 200px;
+      width: 250px;
+      border: 1px solid black; 
+    }
+    .extras{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 0rem;
+      margin: 0rem;
+    }
+    .extraSection{
+      height: 200px;
+      width: 250px;
+      padding: 1rem;
+      margin: 1rem;
+    }
+    .extraSectionNote{
+      width: 250px;
+    }
+  }

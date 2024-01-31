@@ -1,0 +1,177 @@
+
+.head{
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    /* text-decoration: underline red; */
+    padding-bottom: 1.5rem;
+}
+.extraHeading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: justify; */
+    letter-spacing: -2px;
+}
+.info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    /* text-align: justify; */
+}
+.red:hover{
+    color: red;
+}
+.success{
+    color: red;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.contactForm{
+    margin: 4rem 20rem;
+    padding: 3rem;
+    text-align: justify;
+}
+.add{
+    display: flex;
+    background: #c92205;
+}
+.key{
+    width: 50%;
+}
+.contactToday{
+    align-self: center;
+    width: 50%;
+}
+.contact{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+.contactFormTwo{
+    margin: 5rem;
+    padding: 5rem;
+}
+.form{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8rem;
+}
+.formHead{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+.formHeading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin:1rem;
+}
+.email{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5rem;
+    text-align: justify;
+}
+input{
+    padding: 1rem;
+}
+.textarea{
+    border: 1px black solid;
+    font-family: 'Montserrat', sans-serif;
+}
+.btnSubmit{
+    padding: 1rem;
+    width: 15rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
+    border: 2px solid red;
+    background-color: red;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 1.5rem;
+  }
+
+  .btnSubmit:hover{
+    background-color: #ffffff;
+    color: red;
+    font-size: 1.7rem;
+  }
+  @media screen and (max-width: 1200px) {
+    .contactForm{
+        margin: 4rem 10rem;
+        padding: 2rem;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .contactForm{
+        margin: 3rem 7rem;
+        padding: 1rem;
+    }
+    .head{
+        font-size: 3.5rem;
+    }
+    .contact{
+        font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .mainCalculator{
+        margin-top: 3.5rem;
+    }
+    .contactForm{
+        margin: 1.5rem;
+        padding: 1rem;
+    }
+    .contactFormTwo{
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .head{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .extraHeading{
+        font-size: 1.5rem;
+    }
+    .info{
+        font-size: 1rem;
+    }
+    .contact{
+        font-size: 1rem;
+    }
+    .success{
+        font-size: 1.5rem;
+    }
+    .form{
+        padding: 2rem
+    }
+    .formHead{
+        font-size: 1.5rem;
+    }
+    .formHeading{
+        font-size: 1.2rem;
+    }
+    .email, .textarea{
+        font-size: 0.9rem;
+    }
+    .btnSubmit{
+        font-size: 1rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+}
+@media screen and (max-width: 300px) {
+    .contactForm{
+        margin: 0rem;
+        padding: 1rem;
+    }
+    .contactFormTwo{
+        margin: 0rem;
+        padding: 1rem;
+    }
+    .form{
+        padding: 1rem;
+    }
+}
