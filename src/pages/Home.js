@@ -11,7 +11,7 @@ import { BsFillHouseHeartFill } from "react-icons/bs";
 import { ImCalculator } from "react-icons/im";
 import TheMainNote from '../components/note/TheMainNote';
 import { FaPhoneVolume } from "react-icons/fa6";
-import CalgaryMap from '../components/CalgaryMap';
+// import CalgaryMap from '../components/CalgaryMap';
 
 function Home(){
     const checkAcknowledgment = localStorage.getItem("Acknowledge");
@@ -25,7 +25,7 @@ function Home(){
             
         </div>
 
-        <img src={calgary} className='imageCalgary'/>
+        <img src={calgary} alt="Calgary" className='imageCalgary'/>
 
         <div className='Calgary'>
             <h1 className='heading'> The City of Calgary </h1>
