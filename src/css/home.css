@@ -266,6 +266,18 @@
         border: 1px solid black; 
     }
   }
+  @media screen and (max-width: 400px) {
+    .extraSection{
+      height: 200px;
+      width: 300px;
+      padding: 1rem;
+      margin: 1.3rem;
+    }
+    .extraSectionNote{
+      width: 300px;
+    }
+  }
+
   @media screen and (max-width: 360px) {
     .Calgary{
       padding: 1rem;

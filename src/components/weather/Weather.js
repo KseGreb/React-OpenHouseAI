@@ -11,8 +11,8 @@
 
 import { useState, useEffect } from "react";
 import WeatherResults from "./WeatherResults";
-import { Dimmer, Loader } from "semantic-ui-react";
-
+import Spinner from 'react-bootstrap/Spinner';
+import "./weather.css"
 
 export function Weather(){
 
@@ -60,16 +60,17 @@ export function Weather(){
 //   fetchData();
 // }, [lat,long])
 
-    return(<div>
+    return(
+    <div className="main">
 
         {(typeof data.main != 'undefined') ? (
         <WeatherResults weatherData = {data}/>
       ): (
-        <div>
-            <Dimmer active>
-                <Loader>Loading...</Loader>
-            </Dimmer>
-        </div>
+          <div>
+            <Spinner animation="border" role="status">
+              <span className="visually-hidden">Loading...</span>
+            </Spinner>
+          </div>
       )}
 
     </div>)
