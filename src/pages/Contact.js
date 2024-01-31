@@ -24,7 +24,7 @@ function Contact(){
         </div>
 
         <div className="add">
-            <img src={key} className="key"/>
+            <img src={key} className="key" alt="keys"/>
             <div className="contactToday">
                 <h2 className="contact">Contact us TODAY - get your new home TOMORROW</h2>
             </div>

@@ -9,7 +9,7 @@ import "../css/slider.css"
 export function Slider(){
 
     const [reasonWhy, setReasonWhy] = useState(0);
-    const {id, title, reason} = reasons[reasonWhy];
+    const { title, reason} = reasons[reasonWhy];
 
     const previousReason = () => {
         setReasonWhy (reasonWhy => {

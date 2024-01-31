@@ -29,7 +29,7 @@ function AlertDismissible() {
            the Otipemisiwak Métis Government (Districts 5 and 6), 
           and all people who make their homes in the Treaty 7 region of southern Alberta.
           </p>
-          <img src={banff} className='banff'/>
+          <img src={banff} alt='Banff' className='banff'/>
           <hr />
           <div className="d-flex justify-content-end">
             <Button 
