@@ -15,9 +15,9 @@ const [showEvenMore, setShowEvenMore] = useState(false);
                     <h2 className="headingMarket">Calgary Housing Market Overview</h2>
                     <p className="aboutMarket">
                         {showMore ? data : data.substring(0, 300) + "..."}
-                        <button className="btnShowMore" onClick={()=> setShowMore(!showMore)}>
-                            {showMore ? "Show Less" : "Show More"}
-                        </button>
+                         <button className="btnShowMore" onClick={()=> setShowMore(!showMore)}>
+                             {showMore ? "Show Less" : "Show More"}
+                         </button>
                     </p>
                     <h2 className="headingMarket">Pricing Overview</h2>
                     <p className="aboutMarket">
